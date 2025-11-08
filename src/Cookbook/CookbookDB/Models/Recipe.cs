@@ -1,0 +1,34 @@
+﻿namespace CookbookDB.Models;
+
+/// <summary>
+/// рецепты
+/// </summary>
+public partial class Recipe
+{
+    /// <summary>
+    /// идентификатор рецепта
+    /// </summary>
+    public int Id { get; set; }
+
+    /// <summary>
+    /// название рецепта
+    /// </summary>
+    public string? Name { get; set; }
+
+    /// <summary>
+    /// вес всего блюда
+    /// </summary>
+    public decimal? Weight { get; set; }
+
+    /// <summary>
+    /// количество порций
+    /// </summary>
+    public int? ServingsNumber { get; set; }
+
+    /// <summary>
+    /// инструкция приготовления
+    /// </summary>
+    public string? Instruction { get; set; }
+
+    public virtual ICollection<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
+}

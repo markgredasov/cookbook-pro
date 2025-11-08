@@ -1,0 +1,10 @@
+﻿namespace CookbookDB.DTO;
+
+public class RecipeBase
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public decimal? Weight { get; set; }
+    public int? ServingsNumber { get; set; }
+    public string Instruction { get; set; } = string.Empty;
+}
