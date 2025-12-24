@@ -1,12 +1,8 @@
 # Cookbook API
 
----
-
 API для кулинарных рецептов
 
 ## Auth
-
----
 
 1. `POST /cookbook/Auth/Register` - регистрация нового пользователя.
 
@@ -77,8 +73,6 @@ Response body (code: 200):
 
 ## File
 
----
-
 1. `POST /cookbook/File/Upload` - загрузка файла в базу данных Minio.
 
 Response body (code: 200):
@@ -117,8 +111,6 @@ Response body (code: 200):
 ```
 
 ## Ingredient
-
----
 
 1. `GET /cookbook/Ingredient/Get` - получение ингредиента по ID.
 
@@ -191,8 +183,6 @@ Response body (code: 200):
 
 
 ## Recipe
-
----
 
 1. `GET /cookbook/Recipe/Get` - получение рецепта по ID.
 
