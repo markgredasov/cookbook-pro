@@ -45,6 +45,7 @@
 ### Диаграммы C4 Model
 
 * <b>Контекст</b>
+\
 ![Context diagram](./assets/С4_1.png)
 
 * <b>Контейнеры</b>
