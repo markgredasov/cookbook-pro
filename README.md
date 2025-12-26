@@ -117,7 +117,10 @@
 
 ## Тестирование
 
-Для запуска тестов необходимо вызвать `dotnet test src/Cookbook/CookbookTests/CookbookTests.csproj`. 
+Для запуска тестов необходимо вызвать:
+```
+dotnet test src/Cookbook/CookbookTests/CookbookTests.csproj
+```
 
 ### Unit-тесты
 
@@ -133,5 +136,5 @@
 Для сборки серверной части проекта необходимо выполнить:
 
 ```
-Coming soon...
+docker compose up --build
 ```
